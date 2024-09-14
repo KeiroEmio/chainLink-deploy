@@ -31,7 +31,8 @@ const networkConfig = {
         vrfWrapper: "0x195f15F2d49d693cE265b4fB0fdDbE15b1850Cc1",
         oracle: "0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD",
         jobId: "ca98366cc7314957b8c012c72f05aeeb",
-        // subscriptionId: "<add your subId of VRF>", 
+        // subscriptionId: "<add your subId of VRF>",
+        subscriptionId: "100272463996337975500823307269209649839511539715317440949909898611919030724117",
         fee: "100000000000000000",
         fundAmount: "10000000000000000000", // 10
         automationUpdateInterval: "30",
@@ -60,7 +61,7 @@ const networkConfig = {
     },
 }
 
-const developmentChains = ["hardhat", "localhost"]
+const developmentChains = ["hardhat", "localhost","sepolia"]
 const VERIFICATION_BLOCK_CONFIRMATIONS = 6
 
 module.exports = {

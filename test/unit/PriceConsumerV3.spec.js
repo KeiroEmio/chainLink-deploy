@@ -12,18 +12,24 @@ const { assert } = require("chai")
           async function deployPriceConsumerFixture() {
               const [deployer] = await ethers.getSigners()
 
-              const DECIMALS = "18"
-              const INITIAL_PRICE = "200000000000000000000"
+              // const DECIMALS = "18"
+              // const INITIAL_PRICE = "200000000000000000000"
 
-              const mockV3AggregatorFactory = await ethers.getContractFactory("MockV3Aggregator")
-              const mockV3Aggregator = await mockV3AggregatorFactory
-                  .connect(deployer)
-                  .deploy(DECIMALS, INITIAL_PRICE)
+              // const mockV3AggregatorFactory = await ethers.getContractFactory("MockV3Aggregator")
+              // const mockV3Aggregator = await mockV3AggregatorFactory
+              //     .connect(deployer)
+              //     .deploy(DECIMALS, INITIAL_PRICE)
 
+              const MyMockV3Aggregator = "0x4b413b433589EA15C08EfEc78c14D5F57C78955f"
+              // 使用已部署的合约地址而不是重新部署
+              const mockV3Aggregator = await ethers.getContractAt("MockV3Aggregator", MyMockV3Aggregator);
+
+              console.log("mockV3Aggregator.address:",mockV3Aggregator.address)
+              console.log("network:",network.name)
               const priceConsumerV3Factory = await ethers.getContractFactory("PriceConsumerV3")
               const priceConsumerV3 = await priceConsumerV3Factory
                   .connect(deployer)
-                  .deploy(mockV3Aggregator.address)
+                  .deploy(MyMockV3Aggregator)
 
               return { priceConsumerV3, mockV3Aggregator }
           }

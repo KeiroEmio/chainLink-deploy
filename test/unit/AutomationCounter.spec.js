@@ -13,6 +13,7 @@ const { assert, expect } = require("chai")
               const [deployer] = await ethers.getSigners()
 
               const chainId = network.config.chainId
+              console.log("chainId:",chainId)
               const automationUpdateInterval =
                   networkConfig[chainId]["automationUpdateInterval"] || "30"
 

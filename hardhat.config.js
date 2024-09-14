@@ -94,7 +94,7 @@ module.exports = {
             chainId: 80002,
         },
     },
-    defaultNetwork: "hardhat",
+    defaultNetwork: "sepolia",
     etherscan: {
         // yarn hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
         apiKey: {

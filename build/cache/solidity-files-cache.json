@@ -1,0 +1,1593 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\AutomationCounter.sol": {
+      "lastModificationDate": 1726230281602,
+      "contentHash": "e1f65cc285a0955226b48f783b59c41f",
+      "sourceName": "contracts/AutomationCounter.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "AutomationCounter"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\automation\\AutomationCompatible.sol": {
+      "lastModificationDate": 1726233840106,
+      "contentHash": "5e080eff2df83e7d1ec3b981fddeb1ce",
+      "sourceName": "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AutomationBase.sol",
+        "./interfaces/AutomationCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AutomationCompatible"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\automation\\AutomationBase.sol": {
+      "lastModificationDate": 1726233840101,
+      "contentHash": "b53171d7e10f5036ecc73fac5d28028b",
+      "sourceName": "@chainlink/contracts/src/v0.8/automation/AutomationBase.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AutomationBase"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\automation\\interfaces\\AutomationCompatibleInterface.sol": {
+      "lastModificationDate": 1726233840114,
+      "contentHash": "5cb8d69e4e9ed7ff601180e31372d0ca",
+      "sourceName": "@chainlink/contracts/src/v0.8/automation/interfaces/AutomationCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AutomationCompatibleInterface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\test\\fuzzing\\AutomationCounterEchidnaTest.sol": {
+      "lastModificationDate": 1726230281607,
+      "contentHash": "08110773916798e57d199a5a6a6ae32b",
+      "sourceName": "contracts/test/fuzzing/AutomationCounterEchidnaTest.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../AutomationCounter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "AutomationCounterEchidnaTest"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1726233839930,
+      "contentHash": "64a3f906dc7696aa3c9fa8454b673be7",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\SubscriptionAPI.sol": {
+      "lastModificationDate": 1726233842188,
+      "contentHash": "bc074f749f9a3c9a3f420656638ece03",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/SubscriptionAPI.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../vendor/openzeppelin-solidity/v4.7.3/contracts/utils/structs/EnumerableSet.sol",
+        "../../shared/interfaces/LinkTokenInterface.sol",
+        "../../shared/access/ConfirmedOwner.sol",
+        "../../shared/interfaces/AggregatorV3Interface.sol",
+        "../../shared/interfaces/IERC677Receiver.sol",
+        "./interfaces/IVRFSubscriptionV2Plus.sol"
+      ],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "SubscriptionAPI"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\LinkTokenInterface.sol": {
+      "lastModificationDate": 1726233841801,
+      "contentHash": "2bad029d4994ec16b93df2e46955d37f",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\access\\ConfirmedOwner.sol": {
+      "lastModificationDate": 1726233840650,
+      "contentHash": "1ed782c1e3014a255f9171aefc3cdde3",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConfirmedOwnerWithProposal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwner"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\IERC677Receiver.sol": {
+      "lastModificationDate": 1726233841448,
+      "contentHash": "c73f0d0e1d270b32a66512039681f520",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/IERC677Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.6"
+      ],
+      "artifacts": [
+        "IERC677Receiver"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\interfaces\\IVRFSubscriptionV2Plus.sol": {
+      "lastModificationDate": 1726233841638,
+      "contentHash": "3876d187ac359ff043ea8f248fe05800",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/interfaces/IVRFSubscriptionV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVRFSubscriptionV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.7.3\\contracts\\utils\\structs\\EnumerableSet.sol": {
+      "lastModificationDate": 1726233840876,
+      "contentHash": "7d77e33794c3b1fab8a0708adf64ab99",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/openzeppelin-solidity/v4.7.3/contracts/utils/structs/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\access\\ConfirmedOwnerWithProposal.sol": {
+      "lastModificationDate": 1726233840658,
+      "contentHash": "f29daa205dcbdc6037de8e38e5a34158",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwnerWithProposal"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\IOwnable.sol": {
+      "lastModificationDate": 1726233841537,
+      "contentHash": "b3ae9b7345205a0a65f3e0f89c176d88",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\interfaces\\IVRFCoordinatorV2Plus.sol": {
+      "lastModificationDate": 1726233841623,
+      "contentHash": "a40c594759ed60ae8b25c9878deb5190",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/interfaces/IVRFCoordinatorV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/VRFV2PlusClient.sol",
+        "./IVRFSubscriptionV2Plus.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVRFCoordinatorV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\libraries\\VRFV2PlusClient.sol": {
+      "lastModificationDate": 1726233842433,
+      "contentHash": "ea0b191b25011f4be7f27a1ccf579259",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "VRFV2PlusClient"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\VRFV2PlusWrapper.sol": {
+      "lastModificationDate": 1726233842462,
+      "contentHash": "93f9a542f2f2d94599ad18cda5719a70",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../shared/access/ConfirmedOwner.sol",
+        "../../interfaces/TypeAndVersionInterface.sol",
+        "./VRFConsumerBaseV2Plus.sol",
+        "../../shared/interfaces/LinkTokenInterface.sol",
+        "../../shared/interfaces/AggregatorV3Interface.sol",
+        "./libraries/VRFV2PlusClient.sol",
+        "./interfaces/IVRFV2PlusWrapper.sol",
+        "./VRFV2PlusWrapperConsumerBase.sol",
+        "../../ChainSpecificUtil.sol"
+      ],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "VRFV2PlusWrapper"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\VRFConsumerBaseV2Plus.sol": {
+      "lastModificationDate": 1726233842323,
+      "contentHash": "b79fe960e5c1708710e8903cb2596a05",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IVRFCoordinatorV2Plus.sol",
+        "./interfaces/IVRFMigratableConsumerV2Plus.sol",
+        "../../shared/access/ConfirmedOwner.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "VRFConsumerBaseV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\VRFV2PlusWrapperConsumerBase.sol": {
+      "lastModificationDate": 1726233842468,
+      "contentHash": "aeda70d7014c937b49d452e86a9d0686",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapperConsumerBase.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../shared/interfaces/LinkTokenInterface.sol",
+        "./interfaces/IVRFV2PlusWrapper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFV2PlusWrapperConsumerBase"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\ChainSpecificUtil.sol": {
+      "lastModificationDate": 1726233840604,
+      "contentHash": "8e6926e14cab871dea6054ec950948ef",
+      "sourceName": "@chainlink/contracts/src/v0.8/ChainSpecificUtil.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./vendor/@arbitrum/nitro-contracts/src/precompiles/ArbSys.sol",
+        "./vendor/@arbitrum/nitro-contracts/src/precompiles/ArbGasInfo.sol",
+        "./vendor/@eth-optimism/contracts/v0.8.9/contracts/L2/predeploys/OVM_GasPriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ChainSpecificUtil"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\TypeAndVersionInterface.sol": {
+      "lastModificationDate": 1726233842217,
+      "contentHash": "99239ca600c3a8878735c8c17d46981a",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/TypeAndVersionInterface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TypeAndVersionInterface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\interfaces\\IVRFV2PlusWrapper.sol": {
+      "lastModificationDate": 1726233841644,
+      "contentHash": "d43600049028547c9db6c78090672c15",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/interfaces/IVRFV2PlusWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVRFV2PlusWrapper"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\interfaces\\IVRFMigratableConsumerV2Plus.sol": {
+      "lastModificationDate": 1726233841634,
+      "contentHash": "c46a904727c33fe3465e4cf8957610c0",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/interfaces/IVRFMigratableConsumerV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVRFMigratableConsumerV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vendor\\@arbitrum\\nitro-contracts\\src\\precompiles\\ArbSys.sol": {
+      "lastModificationDate": 1726233840077,
+      "contentHash": "1ec6cfeeb68e3d45f9b56e0fd7f9ff23",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/@arbitrum/nitro-contracts/src/precompiles/ArbSys.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.21 <0.9.0"
+      ],
+      "artifacts": [
+        "ArbSys"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vendor\\@eth-optimism\\contracts\\v0.8.9\\contracts\\L2\\predeploys\\OVM_GasPriceOracle.sol": {
+      "lastModificationDate": 1726233842016,
+      "contentHash": "5f2603884a99e1272393169e217927d2",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/@eth-optimism/contracts/v0.8.9/contracts/L2/predeploys/OVM_GasPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "OVM_GasPriceOracle"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vendor\\@arbitrum\\nitro-contracts\\src\\precompiles\\ArbGasInfo.sol": {
+      "lastModificationDate": 1726233839939,
+      "contentHash": "3970ea44a03b008b6488d6affc9696dc",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/@arbitrum/nitro-contracts/src/precompiles/ArbGasInfo.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.21 <0.9.0"
+      ],
+      "artifacts": [
+        "ArbGasInfo"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1726233839566,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1726233838467,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\RandomNumberDirectFundingConsumerV2Plus.sol": {
+      "lastModificationDate": 1726230281604,
+      "contentHash": "e834443c5f9d3290601fd9c531b16e07",
+      "sourceName": "contracts/RandomNumberDirectFundingConsumerV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol",
+        "@chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapperConsumerBase.sol",
+        "@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol",
+        "@chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "RandomNumberDirectFundingConsumerV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\mocks\\VRFCoordinatorV2_5Mock.sol": {
+      "lastModificationDate": 1726233842346,
+      "contentHash": "b2cebcb56a66411fc34933443fdf4826",
+      "sourceName": "@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dev/interfaces/IVRFCoordinatorV2Plus.sol",
+        "../dev/libraries/VRFV2PlusClient.sol",
+        "../dev/SubscriptionAPI.sol",
+        "../dev/VRFConsumerBaseV2Plus.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "VRFCoordinatorV2_5Mock"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\test\\VRFCoordinatorV2_5Mock.sol": {
+      "lastModificationDate": 1726230281606,
+      "contentHash": "5663f0f8b9cb94039460a9c4a7a24896",
+      "sourceName": "contracts/test/VRFCoordinatorV2_5Mock.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": []
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\RandomNumberConsumerV2Plus.sol": {
+      "lastModificationDate": 1726230281603,
+      "contentHash": "b698b9f4dc8f97fc7bc3ff160ad4da07",
+      "sourceName": "contracts/RandomNumberConsumerV2Plus.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol",
+        "@chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "RandomNumberConsumerV2Plus"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\VRFV2PlusWrapper.sol": {
+      "lastModificationDate": 1726230281604,
+      "contentHash": "284e149da5ab47722aa56f26c4bf53aa",
+      "sourceName": "contracts/VRFV2PlusWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapper.sol"
+      ],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": []
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\mocks\\MockLinkToken.sol": {
+      "lastModificationDate": 1726233841874,
+      "contentHash": "aed7d896352ae0590cfc94b068a393bf",
+      "sourceName": "@chainlink/contracts/src/v0.8/mocks/MockLinkToken.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../shared/interfaces/IERC677Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockLinkToken"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\test\\MockLinkToken.sol": {
+      "lastModificationDate": 1726230281605,
+      "contentHash": "0660186fda8953e52b094f23ef1857ad",
+      "sourceName": "contracts/test/MockLinkToken.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/mocks/MockLinkToken.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": []
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1726233839928,
+      "contentHash": "a045cdf1098c0a0735bee2f727fee0aa",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AggregatorInterface.sol",
+        "./AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV2V3Interface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\AggregatorInterface.sol": {
+      "lastModificationDate": 1726233839924,
+      "contentHash": "1739f42cb7ceb036e6fd94b9d9990506",
+      "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\tests\\MockV3Aggregator.sol": {
+      "lastModificationDate": 1726233841906,
+      "contentHash": "964c2024720c0de4d9ed9fa3907afa75",
+      "sourceName": "@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../shared/interfaces/AggregatorV2V3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockV3Aggregator"
+      ]
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\test\\MockV3Aggregator.sol": {
+      "lastModificationDate": 1726230281606,
+      "contentHash": "022535f3f6a3ad6825f4c5da6af8291f",
+      "sourceName": "contracts/test/MockV3Aggregator.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": []
+    },
+    "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\PriceConsumerV3.sol": {
+      "lastModificationDate": 1726302055228,
+      "contentHash": "06277d05c3aa92ceb792405293805b31",
+      "sourceName": "contracts/PriceConsumerV3.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000000
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "PriceConsumerV3"
+      ]
+    }
+  }
+}
