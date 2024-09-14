@@ -130,6 +130,6 @@ module.exports = {
         artifacts: "./build/artifacts",
     },
     mocha: {
-        timeout: 300000, // 300 seconds max for running tests
+        timeout: 5000, // 300 seconds max for running tests
     },
 }
