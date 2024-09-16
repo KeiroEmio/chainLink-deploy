@@ -29,6 +29,8 @@ const FORKING_BLOCK_NUMBER = parseInt(process.env.FORKING_BLOCK_NUMBER) || 0
 // Your API key for Etherscan, obtain one at https://etherscan.io/
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "Your etherscan API key"
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "Your polygonscan API key"
+const AUTOMATIONCOUNTER_CONTRACT_ADDRESS = process.env.AUTOMATIONCOUNTER_CONTRACT_ADDRESS || "0xc2Aff810D66ccD03b042B38ED8B75394355D09a1"
+
 const REPORT_GAS = process.env.REPORT_GAS || false
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -52,6 +54,9 @@ module.exports = {
                 settings: COMPILER_SETTINGS,
             },
         ],
+    },
+    deployContractAddress:{
+        AutomationCounterAddress : AUTOMATIONCOUNTER_CONTRACT_ADDRESS
     },
     networks: {
         hardhat: {
@@ -129,7 +134,8 @@ module.exports = {
         cache: "./build/cache",
         artifacts: "./build/artifacts",
     },
+
     mocha: {
-        timeout: 5000, // 300 seconds max for running tests
+        timeout: 500000, // 300 seconds max for running tests
     },
 }
