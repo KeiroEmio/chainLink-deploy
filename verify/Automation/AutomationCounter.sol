@@ -3,7 +3,7 @@ pragma solidity ^0.8.7;
 
 // AutomationCompatible.sol imports the functions from both ./AutomationBase.sol and
 // ./interfaces/AutomationCompatibleInterface.sol
-import "./AutomationCompatible.sol";
+import "./Automation/AutomationCompatible.sol";
 
 /**
  * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.

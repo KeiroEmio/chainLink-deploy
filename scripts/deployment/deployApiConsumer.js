@@ -27,6 +27,7 @@ async function deployApiConsumer(chainId) {
 
         linkTokenAddress = linkToken.address
         oracleAddress = mockOracle.address
+        console.log("oracleAddress:",oracleAddress)
     } else {
         oracleAddress = networkConfig[chainId]["oracle"]
         linkTokenAddress = networkConfig[chainId]["linkToken"]

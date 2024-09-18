@@ -17,11 +17,12 @@ const {
 async function main() {
     await run("compile")
     const chainId = network.config.chainId
+    console.log("chainid:",chainId)
     await deployApiConsumer(chainId)
-    await deployAutomationCounter(chainId)
-    await deployPriceConsumerV3(chainId)
-    await deployRandomNumberConsumer(chainId)
-    await deployRandomNumberDirectFundingConsumer(chainId)
+    // await deployAutomationCounter(chainId)
+    // await deployPriceConsumerV3(chainId)
+    // await deployRandomNumberConsumer(chainId)
+    // await deployRandomNumberDirectFundingConsumer(chainId)
 }
 
 // We recommend this pattern to be able to use async/await everywhere

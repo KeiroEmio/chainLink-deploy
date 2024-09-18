@@ -124,7 +124,7 @@ console.log("network.name:",developmentChains.includes(network.name))
             describe("#performUpkeep", function () {
                 describe("success", function () {
                     it("should be able to call performUpkeep after time passes", async function () {
-                        const { counter } = await deployAutomationCounter();
+                        const {counter} = await deployAutomationCounter();
                         const startingCount = await counter.counter();
                         const checkData = ethers.utils.keccak256(ethers.utils.toUtf8Bytes(""));
                         const interval = await counter.interval();
@@ -150,15 +150,14 @@ console.log("network.name:",developmentChains.includes(network.name))
         describe("#checkUpkeep", async function () {
             describe("success", async function () {
                 it("should be able to call checkUpkeep", async function () {
-                    const { counter } = await deployAutomationCounter()
+                    const {counter} = await deployAutomationCounter()
                     // const {counter } = await loadFixture(deployAutomationCounterFixture)
                     const checkData = ethers.utils.keccak256(ethers.utils.toUtf8Bytes(""))
-                    const { upkeepNeeded } = await counter.callStatic.checkUpkeep(checkData)
-                    console.log("upkeepNeeded:",upkeepNeeded)
+                    const {upkeepNeeded} = await counter.callStatic.checkUpkeep(checkData)
+                    console.log("upkeepNeeded:", upkeepNeeded)
                     await assert.strictEqual(upkeepNeeded, true);
                 })
             })
         })
-
     })
 

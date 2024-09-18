@@ -237,8 +237,8 @@
       ]
     },
     "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\SubscriptionAPI.sol": {
-      "lastModificationDate": 1726233842188,
-      "contentHash": "bc074f749f9a3c9a3f420656638ece03",
+      "lastModificationDate": 1726648522298,
+      "contentHash": "a303ff78696720a7d1fb4c0dc632c262",
       "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/SubscriptionAPI.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -275,7 +275,7 @@
         "./interfaces/IVRFSubscriptionV2Plus.sol"
       ],
       "versionPragmas": [
-        "0.8.19"
+        "^0.8.4"
       ],
       "artifacts": [
         "SubscriptionAPI"
@@ -631,8 +631,8 @@
       ]
     },
     "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\dev\\VRFV2PlusWrapper.sol": {
-      "lastModificationDate": 1726233842462,
-      "contentHash": "93f9a542f2f2d94599ad18cda5719a70",
+      "lastModificationDate": 1726648522440,
+      "contentHash": "af8796f623869fb65c88acee62fcc065",
       "sourceName": "@chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapper.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -668,8 +668,7 @@
         "../../shared/interfaces/AggregatorV3Interface.sol",
         "./libraries/VRFV2PlusClient.sol",
         "./interfaces/IVRFV2PlusWrapper.sol",
-        "./VRFV2PlusWrapperConsumerBase.sol",
-        "../../ChainSpecificUtil.sol"
+        "./VRFV2PlusWrapperConsumerBase.sol"
       ],
       "versionPragmas": [
         "0.8.19"
@@ -1155,7 +1154,7 @@
       ]
     },
     "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\node_modules\\@chainlink\\contracts\\src\\v0.8\\vrf\\mocks\\VRFCoordinatorV2_5Mock.sol": {
-      "lastModificationDate": 1726233842346,
+      "lastModificationDate": 1726648522386,
       "contentHash": "b2cebcb56a66411fc34933443fdf4826",
       "sourceName": "@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol",
       "solcConfig": {
@@ -1277,7 +1276,7 @@
       ]
     },
     "D:\\BaiDudish\\dev\\ChainLink\\hardhat-starter-kit\\contracts\\VRFV2PlusWrapper.sol": {
-      "lastModificationDate": 1726230281604,
+      "lastModificationDate": 1726293008827,
       "contentHash": "284e149da5ab47722aa56f26c4bf53aa",
       "sourceName": "contracts/VRFV2PlusWrapper.sol",
       "solcConfig": {

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {AutomationBase} from "./AutomationBase.sol";
+import {AutomationBase} from "./Automation/AutomationBase.sol";
 import {AutomationCompatibleInterface} from "./AutomationCompatibleInterface.sol";
 
 abstract contract AutomationCompatible is AutomationBase, AutomationCompatibleInterface {}
